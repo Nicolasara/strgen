@@ -1,9 +1,9 @@
-load("@rules_go//go:def.bzl", "go_library", "go_test")
+load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 
 go_library(
     name = "strgen",
     srcs = ["strgen.go"],
-    importpath = "github.com/Nicolasara/mono/tree/main/nico/packages/go/strgen",
+    importpath = "github.com/nicoaraujo/mono/nico/packages/go/strgen",
     visibility = ["//visibility:public"],
 )
 
